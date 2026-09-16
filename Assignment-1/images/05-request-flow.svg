@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-label="POST /api/matches/1/result">
+  <rect width="960" height="380" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">POST /api/matches/1/result</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d3557"/>
+    </marker>
+  </defs>
+
+  <rect x="30" y="80" width="200" height="160" rx="10" fill="#e9edc9" stroke="#606c38" stroke-width="2"/>
+  <text x="46" y="108" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#1d3557" font-weight="700">1. HTTP</text>
+  <text x="46" y="132" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Swagger</text>
+  <text x="46" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">homeGoals, awayGoals</text>
+  <rect x="250" y="80" width="200" height="160" rx="10" fill="#1d3557" stroke="#1d3557" stroke-width="2"/>
+  <text x="266" y="108" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">2. Controller</text>
+  <text x="266" y="132" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Ottaa pyynnön</text>
+  <text x="266" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Kutsuu Serviceä</text>
+  <text x="266" y="172" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">400 / 404 / 200</text>
+  <rect x="470" y="80" width="220" height="160" rx="10" fill="#457b9d" stroke="#457b9d" stroke-width="2"/>
+  <text x="486" y="108" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">3. Service</text>
+  <text x="486" y="132" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Tulos jo?</text>
+  <text x="486" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Ajankohta ohi?</text>
+  <text x="486" y="172" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Kaksi eri joukkuetta</text>
+  <rect x="710" y="80" width="220" height="160" rx="10" fill="#2a9d8f" stroke="#1d3557" stroke-width="2"/>
+  <text x="726" y="108" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">4. Repository</text>
+  <text x="726" y="132" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">GetById</text>
+  <text x="726" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Update</text>
+  <text x="726" y="172" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Ei sääntöjä</text>
+  <text x="30" y="290" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#457b9d">Count kuuluu repositoryyn. ”tulos jo kirjattu” kuuluu Serviceen.</text>
+</svg>

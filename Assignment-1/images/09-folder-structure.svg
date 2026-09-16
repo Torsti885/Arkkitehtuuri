@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="Rakenne refaktoroinnin jälkeen">
+  <rect width="960" height="400" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">Rakenne refaktoroinnin jälkeen</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d3557"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="70" width="280" height="280" rx="10" fill="#1d3557" stroke="#1d3557" stroke-width="2"/>
+  <text x="56" y="98" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Controllers/</text>
+  <text x="56" y="122" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">TeamsController</text>
+  <text x="56" y="142" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">MatchesController</text>
+  <text x="56" y="162" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">HTTP ↔ status</text>
+  <rect x="340" y="70" width="280" height="280" rx="10" fill="#457b9d" stroke="#457b9d" stroke-width="2"/>
+  <text x="356" y="98" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Services/</text>
+  <text x="356" y="122" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">TeamService</text>
+  <text x="356" y="142" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">MatchService</text>
+  <text x="356" y="162" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Säännöt + standings</text>
+  <rect x="640" y="70" width="280" height="280" rx="10" fill="#2a9d8f" stroke="#1d3557" stroke-width="2"/>
+  <text x="656" y="98" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Repositories/</text>
+  <text x="656" y="122" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">InMemory…</text>
+  <text x="656" y="142" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Listat täällä</text>
+</svg>
